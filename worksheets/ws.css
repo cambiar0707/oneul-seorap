@@ -1,0 +1,47 @@
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css');
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; letter-spacing: -0.07em; }
+html, body { background: #e9e6de; }
+body { font-family: 'NanumSquare', sans-serif; color: #141413; font-size: 10pt; line-height: 1.6; word-break: keep-all; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.page { width: 210mm; height: 297mm; margin: 0 auto 10mm; background: #fff; padding: 15mm 15mm 13mm; display: flex; flex-direction: column; overflow: hidden; position: relative; }
+@media print { html, body { background: #fff; } .page { margin: 0; break-after: page; } }
+
+.hd { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #141413; padding-bottom: 3mm; font-size: 8pt; }
+.hd .l { display: flex; gap: 2mm; align-items: center; font-weight: 800; }
+.hd .px { width: 4.5mm; height: 4.5mm; }
+.hd .r { color: #6d6a62; }
+.ttl { padding: 9mm 0 6mm; }
+.ttl .tag { display: inline-block; font-size: 7.5pt; font-weight: 800; border: 1px solid #141413; border-radius: 20px; padding: 0 3mm; margin-bottom: 3mm; }
+.ttl h1 { font-size: 21pt; font-weight: 800; line-height: 1.3; }
+.ttl p { font-size: 9.5pt; color: #4a4842; margin-top: 2mm; }
+h2 { font-size: 12pt; font-weight: 800; margin: 6mm 0 3mm; display: flex; align-items: center; gap: 2mm; }
+h2 .n { font-size: 7.5pt; border: 1px solid #141413; border-radius: 20px; padding: 0 2.2mm; letter-spacing: 0; }
+.note { font-size: 8.5pt; color: #6d6a62; }
+
+table { width: 100%; border-collapse: collapse; font-size: 8.8pt; }
+th, td { border: 1px solid #2a2926; padding: 2mm 2.4mm; vertical-align: top; text-align: left; }
+th { background: #f3f1ea; font-weight: 800; font-size: 8.2pt; }
+td.c, th.c { text-align: center; vertical-align: middle; }
+.blank td { height: 9mm; }
+.tall td { height: 13mm; }
+.num { font-weight: 800; letter-spacing: 0; }
+
+.box { border: 1px solid #2a2926; padding: 4mm 5mm; }
+.lines { background-image: linear-gradient(#cfccc3 1px, transparent 1px); background-size: 100% 8mm; background-position: 0 7.5mm; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4mm; }
+.chk { display: inline-block; width: 3.4mm; height: 3.4mm; border: 1px solid #141413; vertical-align: -0.5mm; margin-right: 1.5mm; }
+.dots { display: inline-flex; gap: 1.6mm; }
+.dots i { width: 4.2mm; height: 4.2mm; border: 1px solid #141413; border-radius: 50%; display: inline-block; font-style: normal; font-size: 6.5pt; text-align: center; line-height: 4mm; letter-spacing: 0; }
+
+.card { border: 1px dashed #2a2926; padding: 4mm; min-height: 30mm; display: flex; flex-direction: column; gap: 1.5mm; }
+.card .k { font-size: 7.5pt; font-weight: 800; color: #c4512f; letter-spacing: 0; }
+.card b { font-size: 10pt; }
+.card span { font-size: 8.5pt; color: #4a4842; }
+
+.ft { margin-top: auto; padding-top: 3mm; border-top: 1px solid #141413; display: flex; justify-content: space-between; font-size: 7pt; color: #6d6a62; letter-spacing: 0; }
+.ft b { color: #141413; }
+.accent { color: #c4512f; }
+.fill { flex: 1; }
+table.tight td, table.tight th { padding: 1.2mm 2.4mm; }
+tbody[data-rows] tr { height: 9mm; }
