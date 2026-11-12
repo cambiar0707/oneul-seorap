@@ -40,7 +40,7 @@
 | 01 | 엄마의 잔소리 감사(監査) 노트 | 2p |
 
 ## 5. 남은 할 일 (TODO)
-- [ ] `assets/posts.js`의 `coupangDefault`를 실제 쿠팡 파트너스 링크로 교체 (현재 쿠팡 메인 주소)
+- [x] `assets/posts.js`의 `coupangDefault`를 쿠팡 파트너스 링크로 교체 완료
 - [ ] 게시물별 관련 상품 링크 넣기 (`coupang` 필드)
 - [ ] 푸터 문의 이메일(`hello@example.com`)·SNS 링크 교체
 - [ ] 구독 폼을 실제 뉴스레터 서비스(스티비 등)와 연결 — 현재는 동작만 흉내

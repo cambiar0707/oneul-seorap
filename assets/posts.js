@@ -4,7 +4,7 @@
 window.SITE = {
   name: '오후 네 시 서랍',
   // 쿠팡 파트너스에서 발급받은 링크로 교체하세요 (예: https://link.coupang.com/a/xxxxx)
-  coupangDefault: 'https://www.coupang.com/',
+  coupangDefault: 'https://link.coupang.com/a/iCsQVUG04H',
   disclosure: '이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.'
 };
 
